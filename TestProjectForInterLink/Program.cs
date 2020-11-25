@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections.Generic;
 
 namespace TestProjectForInterLink
 {
@@ -11,6 +11,8 @@ namespace TestProjectForInterLink
 
             string pathToFile = input.InputPathToFile(); 
             string pathToNewFile = input.OutputPathtoFile();
+
+            List<string[]> fileInList = ReadAndReformatting.InputFileInArrayCharsOfLines(pathToFile);
         }
     }
 }
