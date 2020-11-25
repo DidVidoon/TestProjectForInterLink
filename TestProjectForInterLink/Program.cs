@@ -12,7 +12,9 @@ namespace TestProjectForInterLink
             string pathToFile = input.InputPathToFile(); 
             string pathToNewFile = input.OutputPathtoFile();
 
-            List<string[]> fileInList = ReadAndReformatting.InputFileInArrayCharsOfLines(pathToFile);
+            List<string[]> fileInList = ReadFile.InputFileInArrayCharsOfLines(pathToFile);
+
+            ReformattingAndRecorging.ReformattingFile(fileInList, pathToNewFile);
         }
     }
 }

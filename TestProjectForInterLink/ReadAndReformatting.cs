@@ -4,7 +4,7 @@ using System.IO;
 
 namespace TestProjectForInterLink
 {
-    public static class ReadAndReformatting
+    public static class ReadFile
     {
         public static List<string[]> InputFileInArrayCharsOfLines(string pathToFile)
         {
